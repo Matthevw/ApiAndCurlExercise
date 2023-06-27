@@ -28,11 +28,7 @@ class ApiExercise
         var_dump($result);
 
         $json_string = json_decode($result, true);
-        // var_dump($json_string);
 
         print(print_r($json_string,true)); die;
-        // $json_string = json_encode($result, JSON_PRETTY_PRINT);
-
     }
-
 }
